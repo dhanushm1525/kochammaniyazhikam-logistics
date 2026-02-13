@@ -29,7 +29,7 @@ const ServiceCategoryPage = () => {
         <div className="pt-20 bg-white dark:bg-slate-900 min-h-screen transition-colors duration-300">
             <SEO
                 title={category.title}
-                description={category.desc}
+                description={category.shortDescription}
                 keywords={`${category.title}, logistics, transportation, KMAX`}
                 url={`/services/${id}`}
             />
@@ -39,7 +39,7 @@ const ServiceCategoryPage = () => {
                 <img
                     alt={category.title}
                     className="absolute inset-0 w-full h-full object-cover opacity-40"
-                    src={category.img}
+                    src={category.image}
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-slate-900/60 to-slate-900/90"></div>
                 <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
@@ -55,7 +55,7 @@ const ServiceCategoryPage = () => {
                             {category.title}
                         </h1>
                         <p className="text-lg md:text-xl text-slate-200 leading-relaxed max-w-2xl mx-auto">
-                            {category.desc}
+                            {category.shortDescription}
                         </p>
                     </motion.div>
                 </div>
@@ -76,7 +76,7 @@ const ServiceCategoryPage = () => {
                                 Overview
                             </h2>
                             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-12">
-                                {category.overview}
+                                {category.description}
                             </p>
 
                             <h3 className="text-2xl font-display font-bold text-slate-900 dark:text-white mb-8">
@@ -84,7 +84,7 @@ const ServiceCategoryPage = () => {
                             </h3>
 
                             <div className="space-y-6">
-                                {category.services.map((service, index) => (
+                                {category.subServices && category.subServices.map((subService, index) => (
                                     <motion.div
                                         key={index}
                                         initial={{ opacity: 0, x: -20 }}
@@ -94,13 +94,13 @@ const ServiceCategoryPage = () => {
                                         className="bg-slate-50 dark:bg-slate-800 p-6 rounded-2xl border border-slate-100 dark:border-slate-700 hover:shadow-md transition-shadow"
                                     >
                                         <div className="flex items-start gap-4">
-                                            <div className="mt-1 bg-primary/10 p-2 rounded-full">
+                                            <div className="bg-primary/10 p-2 rounded-full flex-shrink-0 mt-1">
                                                 <CheckCircle className="w-5 h-5 text-primary" />
                                             </div>
                                             <div>
-                                                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">{service.title}</h4>
-                                                <p className="text-slate-600 dark:text-slate-400">
-                                                    {service.description}
+                                                <h4 className="text-lg font-bold text-slate-900 dark:text-white mb-1">{subService.title}</h4>
+                                                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                                    {subService.shortDescription}
                                                 </p>
                                             </div>
                                         </div>

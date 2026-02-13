@@ -1,275 +1,248 @@
 [
-    {
-        "id": "heavy-machinery-transportation-south-india",
-        "title": "Heavy Machinery Transportation in South India",
-        "desc": "Specialized transport for heavy machinery across South India.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuDVZRosGm_ise7MvB7Cr6x12lM6fAJjiVo0hahewojk2Kyr9tdhIcRUGQdVgTa4k7QUPcFWBfC3_XrKHdG2VKFVheLdKQBSHCBgF7a3VD9gg_moJ326dyg5lGhcTiu37zBWIa5TOAq6Ka0QAE1JsUf5voVZFZXAh9K9rZzSBzWMSm_d5jZX9mlFmt_vAzjjjYq2JhSvc7bxLYMx66cflCUmk8qQTzGknOT9dlDPNju6dsS1f5uQ-1rYBTGnLYu7M1XaPgl8oIJpcro",
-        "overview": "We provide comprehensive heavy machinery transportation services across South India. Our fleet is equipped to handle the most demanding loads with precision and safety. From construction sites to industrial plants, we ensure your machinery arrives on time and in perfect condition.",
-        "services": [
-            {
-                "title": "Inter-state Machinery Transport",
-                "description": "Seamless transport of heavy machinery between Karnataka, Tamil Nadu, Kerala, and Andhra Pradesh."
-            },
-            {
-                "title": "Construction Equipment Moving",
-                "description": "Relocation of excavators, loaders, and pavers to construction sites."
-            },
-            {
-                "title": "Industrial Plant Relocation",
-                "description": "Complete turnkey solutions for moving entire industrial plant machinery."
-            }
-        ]
-    },
-    {
-        "id": "isro-odc-owc-transportation",
-        "title": "ISRO ODC/OWC Transportation",
-        "desc": "Trusted partner for ISRO ODC/OWC critical transportation needs.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuB1SlpiWqteTu-ihkAtQbkZbXX1kp4KYTw5BZu1bhgEB3InY0vFVSMnpy0cTkIxoL6CsPH4QLRs_WHWinKIXp1TcTYBTG5-NAfGA4IWRFWh9yJD-VxiYTi7Xgm6Ie_0pslqc-RH8ClCxhQLc-IThNXw07xIZoroFhN1zJWAyhd0cequmTFoz3C0ZY8ouZAYgNKipsdc8j3y59LQOxd1DAsP-EByvklQwdNT5Krge8JuMeRUMoNdNHcQtDay3Ql5UAInXhsrmWJlz_0",
-        "overview": "We are proud to be a trusted partner for ISRO, handling Over Dimensional Cargo (ODC) and Over Weight Cargo (OWC) with the highest level of security and precision. Our specialized teams are trained to transport distinct and critical aerospace components.",
-        "services": [
-            {
-                "title": "Aerospace Component Transport",
-                "description": "Specialized handling and transport of sensitive aerospace components."
-            },
-            {
-                "title": "High-Security Logistics",
-                "description": "Logistics operations with enhanced security protocols for sensitive cargo."
-            },
-            {
-                "title": "Route Survey & Planning",
-                "description": "Detailed route surveys to ensure safe passage for ODC/OWC across varied terrains."
-            }
-        ]
-    },
-    {
-        "id": "metro-rail-transportation",
-        "title": "Metro Rail Transportation",
-        "desc": "Logistics solutions for metro rail components and infrastructure.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuCfUm0I2r5cMwJuAMDK04i9mqTtiTWB57dkOFz6hHIxNaHGO3Y8sjCEXbWSzhJPhRYsHklrH9lC_hZt-UyFe1zpeA5BKwxV4WtaFrOyFC1irXfKoe2TNtbyIWUR5TwS95ycf22nXxCSB5S5skBhaBxmLwKPMV61cdu2_npsYCU3YY1K_PnCCnt9sMHhepcdZVcc7mYGMZ7AGACH6WDcGAjWrVEYKsx-B7x4P_6DERqYC7stQP15bwOamSAp6Qbosg9_26UVFMoE1YA",
-        "overview": "Supporting the growth of urban infrastructure, we provide specialized logistics for Metro Rail projects. From rolling stock to concrete segments, we deliver the components that build the city's lifelines.",
-        "services": [
-            {
-                "title": "Rolling Stock Transport",
-                "description": "Transportation of metro coaches and engines."
-            },
-            {
-                "title": "Concrete Segment Logistics",
-                "description": "Transporting pre-cast concrete segments for tunnels and viaducts."
-            },
-            {
-                "title": "Rail Equipment Handling",
-                "description": "Moving track-laying machines and other rail infrastructure equipment."
-            }
-        ]
-    },
-    {
-        "id": "freight-shipyard-transportation",
-        "title": "Freight & Shipyard Transportation",
-        "desc": "Seamless freight and shipyard transport services.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuCPiV3pwKfK13PqGsNP-pUrHhz_5YFLec-y_HyxRqjlVozE0TJp5eXdTkDbWONQIJu5s4xfKnGydqa3Wc-84_Kg9hgBtTgvshQ2xvfRXSI5M6ZhMxkciUFoh10WQqaZDWh1fuGgaoFQHpJhQHVA1b_A3DmqLyKDcMXg14UfCYRFaV_8TNdtqWPEYQyqE2y949ainHL9QXbs2pehZNdAHoHd9jNJ3jGZJGCpUfBS4CAjKmDIaXclddxyliw2HXXGTvzHkfhvsqDfllI",
-        "overview": "Our shipyard transportation services bridge the gap between ports and inland destinations. We handle heavy marine equipment, ship parts, and general freight with efficiency and care.",
-        "services": [
-            {
-                "title": "Marine Engine Transport",
-                "description": "Transporting massive marine engines and propulsion systems."
-            },
-            {
-                "title": "Ship Block Moving",
-                "description": "Moving large ship hull blocks and sections within shipyards."
-            },
-            {
-                "title": "Port-to-Door Logistics",
-                "description": "Seamless logistics from the shipyard to the final inland destination."
-            }
-        ]
-    },
-    {
-        "id": "power-transformer-transportation",
-        "title": "Power Transformer Transportation",
-        "desc": "Safe handling and transport of heavy power transformers.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuDiPEccC7WxND_Rdw9w3pRSvJAm8P7iJKUSrEtb2Bk9sz96bF_2YGQyzMos7TFTpShVpKzXb4qJZX2wnxcNFcEVb5fo9g9SlEAbST3C6aeiTXxNoCxERgnHyeHdDZaf3Tx-zTZmivQg37JGl_hUaSlsKg0ixVAKI_ONsyXkNGBSMi1OsN9hrNR-xqa9QpsENJw9npaNruxvhg2yg46r-2sztlV7STNs9-zrD3oKFU9ZqfUxwkprlFJ9noRt231X0Nx-1K1sk1UQqyg",
-        "overview": "Transformers are the heart of the power grid, and we treat them with the utmost care. Our team uses specialized hydraulic trailers and skidding systems to transport and position heavy power transformers.",
-        "services": [
-            {
-                "title": "High Voltage Transformer Transport",
-                "description": "Safe transport of 400kV+ transformers."
-            },
-            {
-                "title": "Substation Equipment Logistics",
-                "description": "Moving circuit breakers, reactors, and other substation gear."
-            },
-            {
-                "title": "Foundation Positioning",
-                "description": "Precision unloading and positioning of transformers onto their foundations."
-            }
-        ]
-    },
-    {
-        "id": "airport-project-transportation",
-        "title": "Airport Project Transportation",
-        "desc": "Dedicated logistics for airport construction and equipment.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkMi_BB90x7UnH_SNlkHTZXcMzUxDalvYv4txIoMQBmhw-LfiX2veYrseduucVMegJ8xCR2sqtQHtmYpgfI5o2Q-wrggThcjbCtk71uKc-KQ7Dw2xdNeIm7MjDsFZsubIThp5CHUeb1stDEXBKn0ocbvcYNNCQm-YJbxOC8nGMlFbdOTAuSnPXc_KSJVXHi0n5u8MFtazp7i0EZJjSTMi_E8mD5Ay4PvkRpWsXKEepO-KchiU9nt7hXdoGVBGnyLaY-zfcopBhdx0",
-        "overview": "We support the aviation industry by transporting airport infrastructure, ground support equipment, and construction materials for airport expansion projects.",
-        "services": [
-            {
-                "title": "Aerobridge Transport",
-                "description": "Logistics for passenger boarding bridges."
-            },
-            {
-                "title": "Runway Construction Equipment",
-                "description": "Moving pavers and specialized runway laying machinery."
-            },
-            {
-                "title": "Baggage Handling Systems",
-                "description": "Transporting conveyor systems and baggage scanning units."
-            }
-        ]
-    },
-    {
-        "id": "flat-bed-trailer",
-        "title": "Flat Bed Trailer",
-        "desc": "Versatile flat bed trailers for diverse cargo requirements.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuDzG6MUxU9hVdIpffYVrvU3fxcG9k_0QV4uUucsNBMMJPrPk0YvXV9aPZnLvXovGZQRfMO1TOu0jyz91lvELrcCDEWHI67dXQDzlMzDlbsHNQMZeiZf8355g-7TmSFVLM5RGJsNxgwrVxCzOVRZmh2Tjjbon9UZ1ILN5a--UR2aFWn_YJqb9j4Wkl7z5Vj9-wYBh91x2F2NQ2X5CwGYCCn84g4nikLQO0TQlVcKYjZYmwIhqGLj7gRngJs53SWrKkSyKbJVavCUfnw",
-        "overview": "Our fleet of flatbed trailers is the backbone of general logistics. Ideal for steel, pipes, container cabins, and other non-standard loads that require open-top or side loading.",
-        "services": [
-            {
-                "title": "Steel & Pipe Transport",
-                "description": "Transporting long steel beams and pipes."
-            },
-            {
-                "title": "Container Cabin Moving",
-                "description": "Relocating site offices and portable cabins."
-            },
-            {
-                "title": "General Cargo",
-                "description": "Versatile transport for pallets, crates, and machinery parts."
-            }
-        ]
-    },
-    {
-        "id": "cranes-and-diggers",
-        "title": "Cranes and Diggers",
-        "desc": "Rental and transport of cranes, diggers, and excavators.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuB1SlpiWqteTu-ihkAtQbkZbXX1kp4KYTw5BZu1bhgEB3InY0vFVSMnpy0cTkIxoL6CsPH4QLRs_WHWinKIXp1TcTYBTG5-NAfGA4IWRFWh9yJD-VxiYTi7Xgm6Ie_0pslqc-RH8ClCxhQLc-IThNXw07xIZoroFhN1zJWAyhd0cequmTFoz3C0ZY8ouZAYgNKipsdc8j3y59LQOxd1DAsP-EByvklQwdNT5Krge8JuMeRUMoNdNHcQtDay3Ql5UAInXhsrmWJlz_0",
-        "overview": "Beyond transport, we offer solutions for the equipment itself. We handle the mobilization and demobilization of heavy cranes and diggers to and from project sites.",
-        "services": [
-            {
-                "title": "Crane Mobilization",
-                "description": "Transporting mobile and crawler cranes to sites."
-            },
-            {
-                "title": "Earthmover Transport",
-                "description": "Moving excavators, backhoes, and bulldozers."
-            },
-            {
-                "title": "Rental Assistance",
-                "description": "Logistics support for equipment rental companies."
-            }
-        ]
-    },
-    {
-        "id": "heavy-machinery-transportation",
-        "title": "Heavy Machinery Transportation",
-        "desc": "Expert transportation for all types of heavy industrial machinery.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuDiPEccC7WxND_Rdw9w3pRSvJAm8P7iJKUSrEtb2Bk9sz96bF_2YGQyzMos7TFTpShVpKzXb4qJZX2wnxcNFcEVb5fo9g9SlEAbST3C6aeiTXxNoCxERgnHyeHdDZaf3Tx-zTZmivQg37JGl_hUaSlsKg0ixVAKI_ONsyXkNGBSMi1OsN9hrNR-xqa9QpsENJw9npaNruxvhg2yg46r-2sztlV7STNs9-zrD3oKFU9ZqfUxwkprlFJ9noRt231X0Nx-1K1sk1UQqyg",
-        "overview": "A broad category covering all our industrial machinery transport services. If it's heavy and needs to move, we have the solution.",
-        "services": [
-            {
-                "title": "Manufacturing Plant Relocation",
-                "description": "Moving production lines and heavy presses."
-            },
-            {
-                "title": "Mining Equipment Transport",
-                "description": "Transporting crushers, screeners, and dump trucks."
-            },
-            {
-                "title": "Oil & Gas Equipment",
-                "description": "Logistics for rigs, pipes, and refinery modules."
-            }
-        ]
-    },
-    {
-        "id": "containers-transportation",
-        "title": "Containers Transportation",
-        "desc": "Secure and efficient container transport services.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuDVZRosGm_ise7MvB7Cr6x12lM6fAJjiVo0hahewojk2Kyr9tdhIcRUGQdVgTa4k7QUPcFWBfC3_XrKHdG2VKFVheLdKQBSHCBgF7a3VD9gg_moJ326dyg5lGhcTiu37zBWIa5TOAq6Ka0QAE1JsUf5voVZFZXAh9K9rZzSBzWMSm_d5jZX9mlFmt_vAzjjjYq2JhSvc7bxLYMx66cflCUmk8qQTzGknOT9dlDPNju6dsS1f5uQ-1rYBTGnLYu7M1XaPgl8oIJpcro",
-        "overview": "Efficient movement of standard and high-cube containers. We ensure timely delivery of your containerized cargo from ports to warehouses and vice versa.",
-        "services": [
-            {
-                "title": "20ft & 40ft Container Transport",
-                "description": "Standard container movements."
-            },
-            {
-                "title": "Reefer Container Logistics",
-                "description": "Power-supported transport for refrigerated containers."
-            },
-            {
-                "title": "Open Top Container Handling",
-                "description": "Special handling for over-height cargo in open top containers."
-            }
-        ]
-    },
-    {
-        "id": "windmills-transportation",
-        "title": "Windmills Transportation",
-        "desc": "Specialized fleet for transporting windmill components.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkMi_BB90x7UnH_SNlkHTZXcMzUxDalvYv4txIoMQBmhw-LfiX2veYrseduucVMegJ8xCR2sqtQHtmYpgfI5o2Q-wrggThcjbCtk71uKc-KQ7Dw2xdNeIm7MjDsFZsubIThp5CHUeb1stDEXBKn0ocbvcYNNCQm-YJbxOC8nGMlFbdOTAuSnPXc_KSJVXHi0n5u8MFtazp7i0EZJjSTMi_E8mD5Ay4PvkRpWsXKEepO-KchiU9nt7hXdoGVBGnyLaY-zfcopBhdx0",
-        "overview": "Wind energy projects require some of the most specialized transport in the world. We have extendable trailers to handle turbine blades and heavy-duty axles for nacelles and towers.",
-        "services": [
-            {
-                "title": "Turbine Blade Transport",
-                "description": "Using tele-trailers to transport long windmill blades."
-            },
-            {
-                "title": "Nacelle & Hub Transport",
-                "description": "Heavy transport for the power generating components."
-            },
-            {
-                "title": "Tower Section Logistics",
-                "description": "Moving large diameter tower sections."
-            }
-        ]
-    },
-    {
-        "id": "heavy-lift-transportation",
-        "title": "Heavy Lift Transportation",
-        "desc": "Solutions for extremely heavy and oversized lifts.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuCfUm0I2r5cMwJuAMDK04i9mqTtiTWB57dkOFz6hHIxNaHGO3Y8sjCEXbWSzhJPhRYsHklrH9lC_hZt-UyFe1zpeA5BKwxV4WtaFrOyFC1irXfKoe2TNtbyIWUR5TwS95ycf22nXxCSB5S5skBhaBxmLwKPMV61cdu2_npsYCU3YY1K_PnCCnt9sMHhepcdZVcc7mYGMZ7AGACH6WDcGAjWrVEYKsx-B7x4P_6DERqYC7stQP15bwOamSAp6Qbosg9_26UVFMoE1YA",
-        "overview": "When the cargo is too heavy for standard transport, our Heavy Lift division steps in. We engineer solutions using modular hydraulic axles to distribute weight and ensure safe passage.",
-        "services": [
-            {
-                "title": "Modular Axle Operations",
-                "description": "Using Goldhofer/Cometto type axles for super heavy loads."
-            },
-            {
-                "title": "Project Logistics Management",
-                "description": "End-to-end management of heavy lift projects."
-            },
-            {
-                "title": "Jack & Slide Operations",
-                "description": "Positioning heavy equipment where cranes cannot reach."
-            }
-        ]
-    },
-    {
-        "id": "trailer-transportation",
-        "title": "Trailer Transportation",
-        "desc": "Comprehensive trailer transport for general and specialized loads.",
-        "img": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkMi_BB90x7UnH_SNlkHTZXcMzUxDalvYv4txIoMQBmhw-LfiX2veYrseduucVMegJ8xCR2sqtQHtmYpgfI5o2Q-wrggThcjbCtk71uKc-KQ7Dw2xdNeIm7MjDsFZsubIThp5CHUeb1stDEXBKn0ocbvcYNNCQm-YJbxOC8nGMlFbdOTAuSnPXc_KSJVXHi0n5u8MFtazp7i0EZJjSTMi_E8mD5Ay4PvkRpWsXKEepO-KchiU9nt7hXdoGVBGnyLaY-zfcopBhdx0",
-        "overview": "A versatile fleet of trailers including low-beds, semi-low beds, and high-beds to cater to diverse cargo dimensions and weights.",
-        "services": [
-            {
-                "title": "Low-Bed Trailer Services",
-                "description": "For tall cargo and heavy equipment."
-            },
-            {
-                "title": "Semi-Low Bed Transport",
-                "description": "Ideal for over-dimensional machinery."
-            },
-            {
-                "title": "High-Bed Trailer Logistics",
-                "description": "Standard platform trailers for general cargo."
-            }
-        ]
-    }
+  {
+    "id": "supply-chain-management",
+    "title": "Supply Chain Management",
+    "shortDescription": "End-to-end supply chain optimization.",
+    "description": "Comprehensive supply chain solutions ensuring efficient flow of goods from origin to consumption.",
+    "icon": "FaNetworkWired",
+    "image": "https://placehold.co/800x600?text=Supply+Chain",
+    "subServices": [
+      {
+        "title": "Route planning",
+        "shortDescription": "Optimizing delivery paths to reduce transit time and costs."
+      },
+      {
+        "title": "Fleet management",
+        "shortDescription": "Efficiently managing vehicle tracking, maintenance, and utilization."
+      },
+      {
+        "title": "Real time tracking",
+        "shortDescription": "Providing live updates on cargo location and status for visibility."
+      },
+      {
+        "title": "Delivery scheduling",
+        "shortDescription": "Coordinating timely deliveries to meet custom deadlines."
+      },
+      {
+        "title": "Vendor coordination",
+        "shortDescription": "Streamlining communication and logistics with suppliers."
+      }
+    ]
+  },
+  {
+    "id": "specialized-transport-services",
+    "title": "Specialized Transport Services",
+    "shortDescription": "Expert handling for unique logistics challenges.",
+    "description": "Tailored transport solutions for complex, sensitive, or large-scale projects.",
+    "icon": "FaTruckLoading",
+    "image": "https://placehold.co/800x600?text=Specialized+Transport",
+    "subServices": [
+      {
+        "title": "Project cargo logistics",
+        "shortDescription": "Handling large-scale, complex logistics for industrial projects."
+      },
+      {
+        "title": "Machinery shifting",
+        "shortDescription": "Safe relocation of heavy industrial machinery and equipment."
+      },
+      {
+        "title": "Industrial relocation",
+        "shortDescription": "End-to-end services for moving entire industrial plants."
+      },
+      {
+        "title": "Break bulk cargo",
+        "shortDescription": "Transporting non-containerized cargo with specialized care."
+      },
+      {
+        "title": "Temperature-controlled transport",
+        "shortDescription": "Maintaining specific temperature conditions for sensitive goods."
+      }
+    ]
+  },
+  {
+    "id": "value-added-services",
+    "title": "Value Added Services",
+    "shortDescription": "Additional services for complete peace of mind.",
+    "description": "A suite of complementary services to ensure your cargo is safe, compliant, and well-managed.",
+    "icon": "FaHandHoldingHeart",
+    "image": "https://placehold.co/800x600?text=Value+Added",
+    "subServices": [
+      {
+        "title": "GPS tracking",
+        "shortDescription": "Advanced satellite tracking for real-time asset monitoring."
+      },
+      {
+        "title": "Cargo insurance",
+        "shortDescription": "Comprehensive coverage to protect your goods against risks."
+      },
+      {
+        "title": "Packaging & loading support",
+        "shortDescription": "Professional packing and secure loading to prevent damage."
+      },
+      {
+        "title": "24/7 customer support",
+        "shortDescription": "Round-the-clock assistance for all your logistics queries."
+      },
+      {
+        "title": "E-way bill & permit processing",
+        "shortDescription": "Handling all regulatory documentation and road permits."
+      },
+      {
+        "title": "All India permit service",
+        "shortDescription": "Facilitating hassle-free transport across state borders."
+      },
+      {
+        "title": "Door-to-Door Heavy transport",
+        "shortDescription": "Seamless pickup and delivery for heavy consignments."
+      }
+    ]
+  },
+  {
+    "id": "heavy-equipment-towing",
+    "title": "Heavy Equipment Towing",
+    "shortDescription": "Reliable towing for heavy-duty machinery.",
+    "description": "Specialized towing services for all types of heavy equipment and vehicles.",
+    "icon": "FaTrailer",
+    "image": "https://placehold.co/800x600?text=Heavy+Towing",
+    "subServices": [
+      {
+        "title": "Low bed (50, 60, 70, 100 ton) transport",
+        "shortDescription": "Transporting heavy loads with low ground clearance requirements."
+      },
+      {
+        "title": "Semi Lowbed",
+        "shortDescription": "Ideal for tall cargo that exceeds standard height limits."
+      },
+      {
+        "title": "High bed",
+        "shortDescription": "Standard flatbed trailers for general heavy cargo."
+      },
+      {
+        "title": "Hydraulic axle trailers",
+        "shortDescription": "Modular trailers for extremely heavy and oversized loads."
+      }
+    ]
+  },
+  {
+    "id": "odc-transport-heavy-equipment",
+    "title": "ODC Transport & Heavy Equipment",
+    "shortDescription": "Over-Dimensional Cargo and heavy transport solutions.",
+    "description": "Expert transport for ODC and heavy equipment using specialized trailers and handling equipment.",
+    "icon": "FaIndustry",
+    "image": "https://placehold.co/800x600?text=ODC+Transport",
+    "subServices": [
+      {
+        "title": "Low bed trailer transport",
+        "shortDescription": "Versatile trailers for various heavy equipment transport."
+      },
+      {
+        "title": "Semi low bed trailer",
+        "shortDescription": "Optimized for transporting tall and heavy machinery."
+      },
+      {
+        "title": "Highbed trailer",
+        "shortDescription": "Reliable transport for standard ODC cargo."
+      },
+      {
+        "title": "Hydraulic axle trailer",
+        "shortDescription": "For super-heavy loads requiring weight distribution."
+      },
+      {
+        "title": "Excavator transport",
+        "shortDescription": "Specialized carriers for moving excavators to sites."
+      },
+      {
+        "title": "Crane transport",
+        "shortDescription": "Logistics solutions for mobile and crawler cranes."
+      },
+      {
+        "title": "Bulldozer & paver movement",
+        "shortDescription": "Transporting road construction machinery efficiently."
+      },
+      {
+        "title": "ODC (Over Dimensional Cargo) handling",
+        "shortDescription": "Expert management of cargo exceeding standard dimensions."
+      }
+    ]
+  },
+  {
+    "id": "machinery-hiring",
+    "title": "Machinery Hiring",
+    "shortDescription": "Rent top-quality heavy machinery.",
+    "description": "Flexible hiring options for a wide range of heavy construction and logistics machinery.",
+    "icon": "FaTools",
+    "image": "https://placehold.co/800x600?text=Machinery+Hiring",
+    "subServices": [
+      {
+        "title": "Excavator hiring",
+        "shortDescription": "Rent powerful excavators for digging and earthmoving."
+      },
+      {
+        "title": "Breaker hiring",
+        "shortDescription": "Hydraulic breakers for demolition and rock breaking."
+      },
+      {
+        "title": "Crusher hiring",
+        "shortDescription": "Mobile crushers for aggregate and recycling operations."
+      },
+      {
+        "title": "Crane hiring",
+        "shortDescription": "Various cranes available for lifting and hoisting tasks."
+      },
+      {
+        "title": "Digger hiring",
+        "shortDescription": "Versatile diggers for utility and construction work."
+      },
+      {
+        "title": "JCB",
+        "shortDescription": "Reliable backhoe loaders for general construction needs."
+      },
+      {
+        "title": "Tata Hitachi",
+        "shortDescription": "Heavy-duty construction equipment from a trusted brand."
+      },
+      {
+        "title": "Kobelco",
+        "shortDescription": "Efficient excavators known for fuel economy and power."
+      },
+      {
+        "title": "Sany",
+        "shortDescription": "Modern construction machinery for diverse applications."
+      },
+      {
+        "title": "Volvo",
+        "shortDescription": "Premium heavy equipment ensuring high productivity."
+      }
+    ]
+  },
+  {
+    "id": "road-transport",
+    "title": "Road Transport",
+    "shortDescription": "Efficient domestic road transportation.",
+    "description": "Reliable road transport services for local and interstate logistics.",
+    "icon": "FaRoad",
+    "image": "https://placehold.co/800x600?text=Road+Transport",
+    "subServices": [
+      {
+        "title": "Full Local Truck",
+        "shortDescription": "Dedicated trucks for local and regional distribution."
+      },
+      {
+        "title": "Long distance & interstate transport",
+        "shortDescription": "Reliable trucking services across state lines."
+      },
+      {
+        "title": "Express cargo delivery",
+        "shortDescription": "Fast-tracked delivery for time-sensitive shipments."
+      },
+      {
+        "title": "Taurus",
+        "shortDescription": "Heavy-duty multi-axle trucks for bulk transport."
+      },
+      {
+        "title": "Lorry",
+        "shortDescription": "Standard lorries for general goods transportation."
+      }
+    ]
+  }
 ]

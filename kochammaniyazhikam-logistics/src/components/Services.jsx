@@ -24,7 +24,7 @@ const Services = () => {
                                     <img
                                         alt={service.title}
                                         className="w-full h-full object-cover service-image transition-transform duration-500 group-hover:scale-110"
-                                        src={service.img}
+                                        src={service.image}
                                     />
                                     <div className="absolute -bottom-4 right-4 z-10 transition-transform group-hover:translate-y-1">
                                         <div className="w-10 h-10 bg-teal_accent rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
@@ -35,7 +35,7 @@ const Services = () => {
                                 <div className="p-6 flex-grow flex flex-col">
                                     <h3 className="text-lg font-bold mb-2 text-slate-900 dark:text-white group-hover:text-primary transition-colors">{service.title}</h3>
                                     <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed line-clamp-3">
-                                        {service.desc}
+                                        {service.shortDescription}
                                     </p>
                                     <div className="mt-auto pt-4 flex items-center text-primary font-bold text-sm opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0">
                                         View Details <span className="ml-1">→</span>
