@@ -1,8 +1,7 @@
 'use server'
 
 import Hero from '../components/Hero';
-import ServicesCarousel from '../components/ServicesCarousel';
-import Features from '../components/Features';
+
 import About from '../components/About';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
@@ -19,8 +18,7 @@ const Home = () => {
             />
 
             <Hero />
-            <ServicesCarousel />
-            <Features />
+
             <About />
             <FAQ />
             <Footer />

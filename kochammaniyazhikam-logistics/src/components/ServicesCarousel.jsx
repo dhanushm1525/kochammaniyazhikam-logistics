@@ -39,23 +39,19 @@ const ServicesCarousel = () => {
     return (
         <section className="py-12 bg-white dark:bg-slate-900 overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
-                <div className="mb-10 text-center">
-                    <h2 className="text-3xl md:text-4xl font-display font-extrabold text-slate-900 dark:text-white uppercase">
-                        Featured Services
-                    </h2>
-                </div>
+
 
                 <div className="embla overflow-hidden relative rounded-3xl" ref={emblaRef}>
                     <div className="flex touch-pan-y -ml-4">
                         {services.map((service, index) => (
-                            <div className="flex-[0_0_100%] md:flex-[0_0_50%] min-w-0 pl-4 relative" key={index}>
+                            <div className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_30%] min-w-0 pl-4 relative" key={index}>
                                 <motion.div
                                     animate={{
                                         scale: selectedIndex === index ? 1 : 0.95,
                                         opacity: selectedIndex === index ? 1 : 0.7,
                                     }}
                                     transition={{ duration: 0.4 }}
-                                    className="relative rounded-3xl overflow-hidden shadow-2xl h-[400px]"
+                                    className="relative rounded-3xl overflow-hidden shadow-2xl h-[350px]"
                                 >
                                     <img
                                         src={service.img}

@@ -26,11 +26,7 @@ const Services = () => {
                                         className="w-full h-full object-cover service-image transition-transform duration-500 group-hover:scale-110"
                                         src={service.image}
                                     />
-                                    <div className="absolute -bottom-4 right-4 z-10 transition-transform group-hover:translate-y-1">
-                                        <div className="w-10 h-10 bg-teal_accent rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
-                                            {String(index + 1).padStart(2, '0')}
-                                        </div>
-                                    </div>
+
                                 </div>
                                 <div className="p-6 flex-grow flex flex-col">
                                     <h3 className="text-lg font-bold mb-2 text-slate-900 dark:text-white group-hover:text-primary transition-colors">{service.title}</h3>
