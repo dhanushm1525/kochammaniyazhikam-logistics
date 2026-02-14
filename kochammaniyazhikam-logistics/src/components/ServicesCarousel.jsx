@@ -15,9 +15,10 @@ const ServicesCarousel = () => {
     const [scrollSnaps, setScrollSnaps] = useState([]);
 
     const services = [
-        { title: "Heavy Machinery Transportation", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDVZRosGm_ise7MvB7Cr6x12lM6fAJjiVo0hahewojk2Kyr9tdhIcRUGQdVgTa4k7QUPcFWBfC3_XrKHdG2VKFVheLdKQBSHCBgF7a3VD9gg_moJ326dyg5lGhcTiu37zBWIa5TOAq6Ka0QAE1JsUf5voVZFZXAh9K9rZzSBzWMSm_d5jZX9mlFmt_vAzjjjYq2JhSvc7bxLYMx66cflCUmk8qQTzGknOT9dlDPNju6dsS1f5uQ-1rYBTGnLYu7M1XaPgl8oIJpcro" },
-        { title: "ISRO ODC/OWC Transportation", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuB1SlpiWqteTu-ihkAtQbkZbXX1kp4KYTw5BZu1bhgEB3InY0vFVSMnpy0cTkIxoL6CsPH4QLRs_WHWinKIXp1TcTYBTG5-NAfGA4IWRFWh9yJD-VxiYTi7Xgm6Ie_0pslqc-RH8ClCxhQLc-IThNXw07xIZoroFhN1zJWAyhd0cequmTFoz3C0ZY8ouZAYgNKipsdc8j3y59LQOxd1DAsP-EByvklQwdNT5Krge8JuMeRUMoNdNHcQtDay3Ql5UAInXhsrmWJlz_0" },
-        { title: "Metro Rail Transportation", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCPiV3pwKfK13PqGsNP-pUrHhz_5YFLec-y_HyxRqjlVozE0TJp5eXdTkDbWONQIJu5s4xfKnGydqa3Wc-84_Kg9hgBtTgvshQ2xvfRXSI5M6ZhMxkciUFoh10WQqaZDWh1fuGgaoFQHpJhQHVA1b_A3DmqLyKDcMXg14UfCYRFaV_8TNdtqWPEYQyqE2y949ainHL9QXbs2pehZNdAHoHd9jNJ3jGZJGCpUfBS4CAjKmDIaXclddxyliw2HXXGTvzHkfhvsqDfllI" },
+        { title: "ODC Transport & Heavy Equipment", img: "/images/ODC handling.jpg" },
+        { title: "Specialized Transport Services", img: "/images/project cargo logistics.jpg" },
+        { title: "Machinery Hiring", img: "/images/JCB.jpg" },
+        { title: "Supply Chain Management", img: "/images/route planning.jpg" }
     ];
 
     const onSelect = useCallback(() => {

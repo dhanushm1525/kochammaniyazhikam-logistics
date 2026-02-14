@@ -5,27 +5,32 @@
     "shortDescription": "End-to-end supply chain optimization.",
     "description": "Comprehensive supply chain solutions ensuring efficient flow of goods from origin to consumption.",
     "icon": "FaNetworkWired",
-    "image": "https://placehold.co/800x600?text=Supply+Chain",
+    "image": "/images/route planning.jpg",
     "subServices": [
       {
         "title": "Route planning",
-        "shortDescription": "Optimizing delivery paths to reduce transit time and costs."
+        "shortDescription": "Optimizing delivery paths to reduce transit time and costs.",
+        "image": "/images/route planning.jpg"
       },
       {
         "title": "Fleet management",
-        "shortDescription": "Efficiently managing vehicle tracking, maintenance, and utilization."
+        "shortDescription": "Efficiently managing vehicle tracking, maintenance, and utilization.",
+        "image": "/images/fleet management.jpg"
       },
       {
         "title": "Real time tracking",
-        "shortDescription": "Providing live updates on cargo location and status for visibility."
+        "shortDescription": "Providing live updates on cargo location and status for visibility.",
+        "image": "/images/real time tracking.webp"
       },
       {
         "title": "Delivery scheduling",
-        "shortDescription": "Coordinating timely deliveries to meet custom deadlines."
+        "shortDescription": "Coordinating timely deliveries to meet custom deadlines.",
+        "image": "/images/delivery schedule.jpg"
       },
       {
         "title": "Vendor coordination",
-        "shortDescription": "Streamlining communication and logistics with suppliers."
+        "shortDescription": "Streamlining communication and logistics with suppliers.",
+        "image": "/images/vendor coordination.png"
       }
     ]
   },
@@ -35,27 +40,32 @@
     "shortDescription": "Expert handling for unique logistics challenges.",
     "description": "Tailored transport solutions for complex, sensitive, or large-scale projects.",
     "icon": "FaTruckLoading",
-    "image": "https://placehold.co/800x600?text=Specialized+Transport",
+    "image": "/images/project cargo logistics.jpg",
     "subServices": [
       {
         "title": "Project cargo logistics",
-        "shortDescription": "Handling large-scale, complex logistics for industrial projects."
+        "shortDescription": "Handling large-scale, complex logistics for industrial projects.",
+        "image": "/images/project cargo logistics.jpg"
       },
       {
         "title": "Machinery shifting",
-        "shortDescription": "Safe relocation of heavy industrial machinery and equipment."
+        "shortDescription": "Safe relocation of heavy industrial machinery and equipment.",
+        "image": "/images/machinery shifting.webp"
       },
       {
         "title": "Industrial relocation",
-        "shortDescription": "End-to-end services for moving entire industrial plants."
+        "shortDescription": "End-to-end services for moving entire industrial plants.",
+        "image": "/images/industrial relocation.jpg"
       },
       {
         "title": "Break bulk cargo",
-        "shortDescription": "Transporting non-containerized cargo with specialized care."
+        "shortDescription": "Transporting non-containerized cargo with specialized care.",
+        "image": "/images/breakbulk cargo.jpg"
       },
       {
         "title": "Temperature-controlled transport",
-        "shortDescription": "Maintaining specific temperature conditions for sensitive goods."
+        "shortDescription": "Maintaining specific temperature conditions for sensitive goods.",
+        "image": "/images/temparature controlled cargo.jpg"
       }
     ]
   },
@@ -65,35 +75,42 @@
     "shortDescription": "Additional services for complete peace of mind.",
     "description": "A suite of complementary services to ensure your cargo is safe, compliant, and well-managed.",
     "icon": "FaHandHoldingHeart",
-    "image": "https://placehold.co/800x600?text=Value+Added",
+    "image": "/images/package and loading support.jpg",
     "subServices": [
       {
         "title": "GPS tracking",
-        "shortDescription": "Advanced satellite tracking for real-time asset monitoring."
+        "shortDescription": "Advanced satellite tracking for real-time asset monitoring.",
+        "image": "/images/GPS tracking.jpg"
       },
       {
         "title": "Cargo insurance",
-        "shortDescription": "Comprehensive coverage to protect your goods against risks."
+        "shortDescription": "Comprehensive coverage to protect your goods against risks.",
+        "image": "/images/cargo insurence.jpg"
       },
       {
         "title": "Packaging & loading support",
-        "shortDescription": "Professional packing and secure loading to prevent damage."
+        "shortDescription": "Professional packing and secure loading to prevent damage.",
+        "image": "/images/package and loading support.jpg"
       },
       {
         "title": "24/7 customer support",
-        "shortDescription": "Round-the-clock assistance for all your logistics queries."
+        "shortDescription": "Round-the-clock assistance for all your logistics queries.",
+        "image": "/images/24 7 customer support"
       },
       {
         "title": "E-way bill & permit processing",
-        "shortDescription": "Handling all regulatory documentation and road permits."
+        "shortDescription": "Handling all regulatory documentation and road permits.",
+        "image": "/images/eway bill and permit services.jpg"
       },
       {
         "title": "All India permit service",
-        "shortDescription": "Facilitating hassle-free transport across state borders."
+        "shortDescription": "Facilitating hassle-free transport across state borders.",
+        "image": "/images/all india permit service.jpg"
       },
       {
         "title": "Door-to-Door Heavy transport",
-        "shortDescription": "Seamless pickup and delivery for heavy consignments."
+        "shortDescription": "Seamless pickup and delivery for heavy consignments.",
+        "image": "/images/door to door heavy transport.jpg"
       }
     ]
   },
@@ -103,23 +120,27 @@
     "shortDescription": "Reliable towing for heavy-duty machinery.",
     "description": "Specialized towing services for all types of heavy equipment and vehicles.",
     "icon": "FaTrailer",
-    "image": "https://placehold.co/800x600?text=Heavy+Towing",
+    "image": "/images/semi-low-bed-trailer-body-1000x1000.webp",
     "subServices": [
       {
         "title": "Low bed (50, 60, 70, 100 ton) transport",
-        "shortDescription": "Transporting heavy loads with low ground clearance requirements."
+        "shortDescription": "Transporting heavy loads with 50, 60, 70, and 100 ton supporting trailers.",
+        "image": "/images/semi-low-bed-trailer-body-1000x1000.webp"
       },
       {
         "title": "Semi Lowbed",
-        "shortDescription": "Ideal for tall cargo that exceeds standard height limits."
+        "shortDescription": "Ideal for tall cargo that exceeds standard height limits.",
+        "image": "/images/semi low bed trailer.jpeg"
       },
       {
         "title": "High bed",
-        "shortDescription": "Standard flatbed trailers for general heavy cargo."
+        "shortDescription": "Standard flatbed trailers for general heavy cargo.",
+        "image": "/images/high-bed-trailer-1000x1000.webp"
       },
       {
         "title": "Hydraulic axle trailers",
-        "shortDescription": "Modular trailers for extremely heavy and oversized loads."
+        "shortDescription": "Modular trailers for extremely heavy and oversized loads.",
+        "image": "/images/hydrolic axle trailer.jpg"
       }
     ]
   },
@@ -129,39 +150,47 @@
     "shortDescription": "Over-Dimensional Cargo and heavy transport solutions.",
     "description": "Expert transport for ODC and heavy equipment using specialized trailers and handling equipment.",
     "icon": "FaIndustry",
-    "image": "https://placehold.co/800x600?text=ODC+Transport",
+    "image": "/images/ODC handling.jpg",
     "subServices": [
       {
         "title": "Low bed trailer transport",
-        "shortDescription": "Versatile trailers for various heavy equipment transport."
+        "shortDescription": "Versatile trailers for various heavy equipment transport.",
+        "image": "/images/semi-low-bed-trailer-body-1000x1000.webp"
       },
       {
         "title": "Semi low bed trailer",
-        "shortDescription": "Optimized for transporting tall and heavy machinery."
+        "shortDescription": "Optimized for transporting tall and heavy machinery.",
+        "image": "/images/semi low bed trailer.jpeg"
       },
       {
         "title": "Highbed trailer",
-        "shortDescription": "Reliable transport for standard ODC cargo."
+        "shortDescription": "Reliable transport for standard ODC cargo.",
+        "image": "/images/high-bed-trailer-1000x1000.webp"
       },
       {
         "title": "Hydraulic axle trailer",
-        "shortDescription": "For super-heavy loads requiring weight distribution."
+        "shortDescription": "For super-heavy loads requiring weight distribution.",
+        "image": "/images/hydrolic axle trailer.jpg"
       },
       {
         "title": "Excavator transport",
-        "shortDescription": "Specialized carriers for moving excavators to sites."
+        "shortDescription": "Specialized carriers for moving excavators to sites.",
+        "image": "/images/excavator transport.png"
       },
       {
         "title": "Crane transport",
-        "shortDescription": "Logistics solutions for mobile and crawler cranes."
+        "shortDescription": "Logistics solutions for mobile and crawler cranes.",
+        "image": "/images/crane transport.jpeg"
       },
       {
         "title": "Bulldozer & paver movement",
-        "shortDescription": "Transporting road construction machinery efficiently."
+        "shortDescription": "Transporting road construction machinery efficiently.",
+        "image": "/images/bulldozer and paver.jpg"
       },
       {
         "title": "ODC (Over Dimensional Cargo) handling",
-        "shortDescription": "Expert management of cargo exceeding standard dimensions."
+        "shortDescription": "Expert management of cargo exceeding standard dimensions.",
+        "image": "/images/ODC handling.jpg"
       }
     ]
   },
@@ -171,47 +200,62 @@
     "shortDescription": "Rent top-quality heavy machinery.",
     "description": "Flexible hiring options for a wide range of heavy construction and logistics machinery.",
     "icon": "FaTools",
-    "image": "https://placehold.co/800x600?text=Machinery+Hiring",
+    "image": "/images/JCB.jpg",
     "subServices": [
       {
-        "title": "Excavator hiring",
-        "shortDescription": "Rent powerful excavators for digging and earthmoving."
-      },
-      {
         "title": "Breaker hiring",
-        "shortDescription": "Hydraulic breakers for demolition and rock breaking."
+        "shortDescription": "Hydraulic breakers for demolition and rock breaking.",
+        "image": "/images/Breaker hiring.jpg"
       },
       {
         "title": "Crusher hiring",
-        "shortDescription": "Mobile crushers for aggregate and recycling operations."
+        "shortDescription": "Mobile crushers for aggregate and recycling operations.",
+        "image": "/images/Crusher hiring.jpg"
       },
       {
         "title": "Crane hiring",
-        "shortDescription": "Various cranes available for lifting and hoisting tasks."
+        "shortDescription": "Various cranes available for lifting and hoisting tasks.",
+        "image": "/images/crane hiring.jpg"
       },
       {
         "title": "Digger hiring",
-        "shortDescription": "Versatile diggers for utility and construction work."
-      },
+        "shortDescription": "Versatile diggers for utility and construction work.",
+        "image": "/images/digger hiring.jpg"
+      }
+    ]
+  },
+  {
+    "id": "excavator-hiring",
+    "title": "Excavator Hiring",
+    "shortDescription": "Rent top-quality excavators for your construction needs.",
+    "description": "We offer a wide range of excavators from leading brands for all types of excavation and earthmoving projects.",
+    "icon": "FaTractor",
+    "image": "/images/excavator transport.png",
+    "subServices": [
       {
         "title": "JCB",
-        "shortDescription": "Reliable backhoe loaders for general construction needs."
+        "shortDescription": "Reliable backhoe loaders for general construction needs.",
+        "image": "/images/JCB.jpg"
       },
       {
         "title": "Tata Hitachi",
-        "shortDescription": "Heavy-duty construction equipment from a trusted brand."
+        "shortDescription": "Heavy-duty construction equipment from a trusted brand.",
+        "image": "/images/Tata Hitachi.jpg"
       },
       {
         "title": "Kobelco",
-        "shortDescription": "Efficient excavators known for fuel economy and power."
+        "shortDescription": "Efficient excavators known for fuel economy and power.",
+        "image": "/images/Kobelco.jpg"
       },
       {
         "title": "Sany",
-        "shortDescription": "Modern construction machinery for diverse applications."
+        "shortDescription": "Modern construction machinery for diverse applications.",
+        "image": "/images/sany.jpg"
       },
       {
         "title": "Volvo",
-        "shortDescription": "Premium heavy equipment ensuring high productivity."
+        "shortDescription": "Premium heavy equipment ensuring high productivity.",
+        "image": "/images/volvo.jpg"
       }
     ]
   },
@@ -221,27 +265,32 @@
     "shortDescription": "Efficient domestic road transportation.",
     "description": "Reliable road transport services for local and interstate logistics.",
     "icon": "FaRoad",
-    "image": "https://placehold.co/800x600?text=Road+Transport",
+    "image": "/images/long distance transport.webp",
     "subServices": [
       {
-        "title": "Full Local Truck",
-        "shortDescription": "Dedicated trucks for local and regional distribution."
+        "title": "Full Load Truck",
+        "shortDescription": "Dedicated trucks for local and regional distribution.",
+        "image": "/images/full load truck.webp"
       },
       {
         "title": "Long distance & interstate transport",
-        "shortDescription": "Reliable trucking services across state lines."
+        "shortDescription": "Reliable trucking services across state lines.",
+        "image": "/images/long distance transport.webp"
       },
       {
         "title": "Express cargo delivery",
-        "shortDescription": "Fast-tracked delivery for time-sensitive shipments."
+        "shortDescription": "Fast-tracked delivery for time-sensitive shipments.",
+        "image": "/images/express cargo delivery.jpg"
       },
       {
         "title": "Taurus",
-        "shortDescription": "Heavy-duty multi-axle trucks for bulk transport."
+        "shortDescription": "Heavy-duty multi-axle trucks for bulk transport.",
+        "image": "/images/torres.avif"
       },
       {
         "title": "Lorrys",
-        "shortDescription": "Standard lorries for general goods transportations."
+        "shortDescription": "Standard lorries for general goods transportations.",
+        "image": "/images/lorry.jpg"
       }
     ]
   }

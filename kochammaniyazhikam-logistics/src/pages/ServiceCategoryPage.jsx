@@ -83,26 +83,36 @@ const ServiceCategoryPage = () => {
                                 Our Services in this Category
                             </h3>
 
-                            <div className="space-y-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {category.subServices && category.subServices.map((subService, index) => (
                                     <motion.div
                                         key={index}
-                                        initial={{ opacity: 0, x: -20 }}
-                                        whileInView={{ opacity: 1, x: 0 }}
+                                        initial={{ opacity: 0, scale: 0.95 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
                                         viewport={{ once: true }}
-                                        transition={{ delay: index * 0.1, duration: 0.5 }}
-                                        className="bg-slate-50 dark:bg-slate-800 p-6 rounded-2xl border border-slate-100 dark:border-slate-700 hover:shadow-md transition-shadow"
+                                        transition={{ delay: index * 0.05, duration: 0.4 }}
+                                        className="bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 hover:shadow-lg transition-all overflow-hidden flex flex-col h-full group"
                                     >
-                                        <div className="flex items-start gap-4">
-                                            <div className="bg-primary/10 p-2 rounded-full flex-shrink-0 mt-1">
-                                                <CheckCircle className="w-5 h-5 text-primary" />
+                                        {subService.image && (
+                                            <div className="h-56 w-full shrink-0 overflow-hidden relative">
+                                                <img
+                                                    src={subService.image}
+                                                    alt={subService.title}
+                                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                                />
+                                                <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-300"></div>
                                             </div>
-                                            <div>
-                                                <h4 className="text-lg font-bold text-slate-900 dark:text-white mb-1">{subService.title}</h4>
-                                                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                                                    {subService.shortDescription}
-                                                </p>
+                                        )}
+                                        <div className="p-6 flex flex-col flex-grow">
+                                            <div className="flex items-start gap-4 mb-3">
+                                                <div className="bg-primary/10 p-2 rounded-full flex-shrink-0 mt-1">
+                                                    <CheckCircle className="w-5 h-5 text-primary" />
+                                                </div>
+                                                <h4 className="text-lg font-bold text-slate-900 dark:text-white leading-tight">{subService.title}</h4>
                                             </div>
+                                            <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed pl-[3.25rem]">
+                                                {subService.shortDescription}
+                                            </p>
                                         </div>
                                     </motion.div>
                                 ))}

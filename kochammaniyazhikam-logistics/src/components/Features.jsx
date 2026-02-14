@@ -37,9 +37,9 @@ const Features = () => {
     const features = [
         {
             icon: Wrench,
-            title: "ODC & OWC",
-            description: "Over Dimensional Cargo Transportation & Over Weight Cargo Transportation.",
-            path: "/services/isro-odc-owc-transportation"
+            title: "Supply Chain",
+            description: "End-to-end supply chain optimization and management.",
+            path: "/services/supply-chain-management"
         },
         {
             icon: Building2,
