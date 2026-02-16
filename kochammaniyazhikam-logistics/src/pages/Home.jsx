@@ -1,6 +1,7 @@
 'use server'
 
 import Hero from '../components/Hero';
+import ServicesCarousel from '../components/ServicesCarousel';
 
 import About from '../components/About';
 import FAQ from '../components/FAQ';
@@ -18,6 +19,7 @@ const Home = () => {
             />
 
             <Hero />
+            <ServicesCarousel />
 
             <About />
             <FAQ />

@@ -10,11 +10,15 @@ const Hero = () => {
                     transition={{ duration: 0.8 }}
                     className="relative rounded-2xl md:rounded-3xl overflow-hidden bg-slate-900 min-h-[600px] flex items-center shadow-xl dark:shadow-rose-900/10"
                 >
-                    <img
-                        alt="Large logistics truck on highway"
+                    <video
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
                         className="absolute inset-0 w-full h-full object-cover opacity-60"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPiV3pwKfK13PqGsNP-pUrHhz_5YFLec-y_HyxRqjlVozE0TJp5eXdTkDbWONQIJu5s4xfKnGydqa3Wc-84_Kg9hgBtTgvshQ2xvfRXSI5M6ZhMxkciUFoh10WQqaZDWh1fuGgaoFQHpJhQHVA1b_A3DmqLyKDcMXg14UfCYRFaV_8TNdtqWPEYQyqE2y949ainHL9QXbs2pehZNdAHoHd9jNJ3jGZJGCpUfBS4CAjKmDIaXclddxyliw2HXXGTvzHkfhvsqDfllI"
-                    />
+                    >
+                        <source src="/video/Logistics Stock Video Of Roadways AirWays Seaways Railways - Cargo.mp4" type="video/mp4" />
+                    </video>
                     <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/40 to-transparent"></div>
 
                     <div className="relative z-10 px-8 md:px-16 max-w-3xl">
