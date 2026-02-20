@@ -22,11 +22,36 @@ const ContactPage = () => {
         e.preventDefault();
         setStatus('loading');
 
-        // Simulate network delay
-        setTimeout(() => {
-            setStatus('success');
-            setFormData({ name: '', email: '', phone: '', message: '' });
-        }, 1500);
+        try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    access_key: '9d0f22c7-ee33-4d19-a45b-74b2499c9dc5',
+                    subject: 'New Contact Form Submission - Kochammaniyazhikam Logistics',
+                    from_name: formData.name,
+                    name: formData.name,
+                    email: formData.email,
+                    phone: formData.phone,
+                    message: formData.message
+                })
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                setStatus('success');
+                setFormData({ name: '', email: '', phone: '', message: '' });
+            } else {
+                setStatus('error');
+            }
+        } catch (error) {
+            console.error('Form submission error:', error);
+            setStatus('error');
+        }
     };
 
     // Placeholder for WhatsApp Link - to be updated by user
