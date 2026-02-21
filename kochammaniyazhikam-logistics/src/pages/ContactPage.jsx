@@ -138,6 +138,16 @@ const ContactPage = () => {
                             <span className="text-lg">Chat on WhatsApp</span>
                             <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_outward</span>
                         </a>
+
+                        {/* Call Now Button */}
+                        <a
+                            href="tel:+919547629047"
+                            className="w-full bg-primary hover:bg-rose-700 text-white p-5 rounded-2xl font-bold flex items-center justify-center gap-3 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 group mt-4"
+                        >
+                            <Phone className="w-6 h-6" />
+                            <span className="text-lg">Call Now</span>
+                            <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_outward</span>
+                        </a>
                     </motion.div>
 
                     {/* Contact Form */}
