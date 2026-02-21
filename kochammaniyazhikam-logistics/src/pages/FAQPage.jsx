@@ -63,7 +63,7 @@ const FAQPage = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.1 }}
-                        className="text-4xl md:text-6xl font-display font-extrabold mb-6"
+                        className="text-3xl sm:text-4xl md:text-6xl font-display font-extrabold mb-6"
                     >
                         Frequently Asked Questions
                     </motion.h1>

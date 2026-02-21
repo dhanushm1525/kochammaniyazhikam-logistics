@@ -13,7 +13,7 @@ const AboutUs = () => {
                 url="/about"
             />
             {/* Page Header */}
-            <section className="relative h-[40vh] min-h-[300px] bg-slate-900 overflow-hidden flex items-center justify-center">
+            <section className="relative h-[30vh] sm:h-[40vh] min-h-[200px] sm:min-h-[300px] bg-slate-900 overflow-hidden flex items-center justify-center">
                 <img
                     alt="Logistics fleet"
                     className="absolute inset-0 w-full h-full object-cover opacity-40"
@@ -26,7 +26,7 @@ const AboutUs = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
-                        className="text-4xl md:text-6xl font-display font-extrabold text-white uppercase"
+                        className="text-3xl sm:text-4xl md:text-6xl font-display font-extrabold text-white uppercase"
                     >
                         About Us
                     </motion.h1>

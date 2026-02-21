@@ -78,7 +78,7 @@ const ServicesCarousel = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white mb-4"
+                        className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white mb-4"
                     >
                         Our Logistics Services
                     </motion.h2>

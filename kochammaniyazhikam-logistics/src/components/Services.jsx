@@ -4,10 +4,10 @@ import servicesData from '../data/servicesData.json';
 
 const Services = () => {
     return (
-        <section id="services" className="py-24 px-6 bg-slate-50 dark:bg-slate-900/40 transition-colors duration-300">
+        <section id="services" className="py-16 sm:py-24 px-4 sm:px-6 bg-slate-50 dark:bg-slate-900/40 transition-colors duration-300">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-display font-extrabold uppercase text-slate-900 dark:text-white">EXPLORE KMAX LOGISTICS SERVICES</h2>
+                    <h2 className="text-2xl sm:text-4xl md:text-5xl font-display font-extrabold uppercase text-slate-900 dark:text-white">EXPLORE KMAX LOGISTICS SERVICES</h2>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -48,10 +48,10 @@ const Services = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
-                    className="mt-20 flex flex-col md:flex-row items-center justify-between gap-12 p-8 md:p-12 bg-white dark:bg-slate-800 rounded-3xl border border-slate-100 dark:border-slate-700 shadow-xl shadow-slate-200/50 dark:shadow-rose-900/10"
+                    className="mt-12 sm:mt-20 flex flex-col md:flex-row items-center justify-between gap-8 sm:gap-12 p-6 sm:p-8 md:p-12 bg-white dark:bg-slate-800 rounded-3xl border border-slate-100 dark:border-slate-700 shadow-xl shadow-slate-200/50 dark:shadow-rose-900/10"
                 >
                     <div className="max-w-2xl">
-                        <h3 className="text-3xl font-display font-extrabold mb-4 text-slate-900 dark:text-white">We deliver logistics solutions that move your business forward.</h3>
+                        <h3 className="text-2xl sm:text-3xl font-display font-extrabold mb-4 text-slate-900 dark:text-white">We deliver logistics solutions that move your business forward.</h3>
                         <p className="text-slate-500 dark:text-slate-400">Streamlining your heavy equipment supply chain with KMAX Logistics so you can focus on building the world's infrastructure without headaches.</p>
                     </div>
                     <motion.button

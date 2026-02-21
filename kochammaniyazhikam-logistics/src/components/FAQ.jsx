@@ -48,7 +48,7 @@ const FAQ = () => {
                 <div className="flex flex-col md:flex-row justify-between gap-8 mb-16">
                     <div className="max-w-md">
                         <span className="text-xs font-extrabold text-primary tracking-[0.3em] uppercase mb-4 block">// FAQ //</span>
-                        <h2 className="text-4xl md:text-5xl font-display font-extrabold leading-tight text-slate-900 dark:text-white">FREQUENTLY ASKED QUESTIONS</h2>
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold leading-tight text-slate-900 dark:text-white">FREQUENTLY ASKED QUESTIONS</h2>
                     </div>
                     <p className="text-slate-500 dark:text-slate-400 max-w-sm mt-auto">
                         Handpicked expertise, seamless booking, and local insights—everything you need to move your heavy equipment with KMAX Logistics.
@@ -62,7 +62,7 @@ const FAQ = () => {
                 </div>
 
                 {/* CTA Banner */}
-                <div className="mt-24 relative rounded-3xl overflow-hidden min-h-[400px] flex items-center p-8 md:p-16">
+                <div className="mt-16 sm:mt-24 relative rounded-3xl overflow-hidden min-h-[300px] sm:min-h-[400px] flex items-center p-6 sm:p-8 md:p-16">
                     <img
                         alt="Truck fleet"
                         className="absolute inset-0 w-full h-full object-cover"
@@ -70,8 +70,8 @@ const FAQ = () => {
                     />
                     <div className="absolute inset-0 bg-slate-900/70 backdrop-blur-sm"></div>
                     <div className="relative z-10 max-w-2xl">
-                        <h2 className="text-4xl md:text-5xl font-display font-extrabold text-white mb-6 uppercase">READY TO MOVE WITH KMAX LOGISTICS?</h2>
-                        <p className="text-slate-300 text-lg mb-10 leading-relaxed">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold text-white mb-4 sm:mb-6 uppercase">READY TO MOVE WITH KMAX LOGISTICS?</h2>
+                        <p className="text-slate-300 text-base sm:text-lg mb-6 sm:mb-10 leading-relaxed">
                             From planning to delivery, our logistics experts are here to simplify your supply chain and keep your business moving at the speed of progress.
                         </p>
                         <button className="bg-primary hover:bg-rose-700 text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 transition-all active:scale-95 group shadow-lg shadow-primary/25">

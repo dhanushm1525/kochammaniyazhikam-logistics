@@ -24,17 +24,17 @@ const About = () => {
                             With a strong focus on reliability and customer satisfaction, we offer end-to-end logistics support tailored to each client’s needs. From planning and loading to transport and delivery, our commitment is to provide dependable service that keeps your operations running smoothly and without delay.
                         </p>
                     </div>
-                    <div className="grid grid-cols-3 gap-8">
+                    <div className="grid grid-cols-3 gap-4 sm:gap-8">
                         {[
                             { value: "20+", unit: "YR", label: "Heavy Haul Expertise" },
                             { value: "500+", unit: "TR", label: "Specialized Trailers" },
                             { value: "60K+", unit: "TN", label: "Cargo Handled Daily" }
                         ].map((stat, index) => (
                             <div key={index}>
-                                <div className="text-4xl font-extrabold mb-1 text-slate-900 dark:text-white">
-                                    {stat.value} <span className="text-slate-400 text-2xl">{stat.unit}</span>
+                                <div className="text-2xl sm:text-4xl font-extrabold mb-1 text-slate-900 dark:text-white">
+                                    {stat.value} <span className="text-slate-400 text-base sm:text-2xl">{stat.unit}</span>
                                 </div>
-                                <p className="text-xs font-bold text-slate-500 uppercase tracking-wide">{stat.label}</p>
+                                <p className="text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-wide">{stat.label}</p>
                             </div>
                         ))}
                     </div>
