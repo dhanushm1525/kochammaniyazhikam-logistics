@@ -57,12 +57,14 @@ const About = () => {
                             <h4 className="font-bold text-xl mb-1 text-slate-900 dark:text-white">Our Experts</h4>
                             <p className="text-sm text-slate-500">Dedicated Logistics Team</p>
                         </div>
-                        <motion.button
-                            whileHover={{ scale: 1.1 }}
-                            className="bg-primary w-12 h-12 rounded-full text-white flex items-center justify-center shadow-lg shadow-rose-500/20"
-                        >
-                            <span className="material-symbols-outlined">call</span>
-                        </motion.button>
+                        <a href="tel:+919547629047">
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                className="bg-primary w-12 h-12 rounded-full text-white flex items-center justify-center shadow-lg shadow-rose-500/20 cursor-pointer"
+                            >
+                                <span className="material-symbols-outlined">call</span>
+                            </motion.div>
+                        </a>
                     </div>
                 </motion.div>
             </div>

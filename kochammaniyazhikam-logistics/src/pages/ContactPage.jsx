@@ -54,7 +54,6 @@ const ContactPage = () => {
         }
     };
 
-    // Placeholder for WhatsApp Link - to be updated by user
     const whatsappLink = "https://wa.me/919547629047";
 
     return (
@@ -172,7 +171,6 @@ const ContactPage = () => {
                                     onChange={handleChange}
                                     required
                                     className="w-full px-5 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 text-slate-900 dark:text-white transition-all"
-                                    placeholder="John Doe"
                                 />
                             </div>
                             <div className="grid md:grid-cols-2 gap-6">
@@ -185,7 +183,6 @@ const ContactPage = () => {
                                         onChange={handleChange}
                                         required
                                         className="w-full px-5 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 text-slate-900 dark:text-white transition-all"
-                                        placeholder="john@example.com"
                                     />
                                 </div>
                                 <div>
@@ -196,7 +193,6 @@ const ContactPage = () => {
                                         value={formData.phone}
                                         onChange={handleChange}
                                         className="w-full px-5 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 text-slate-900 dark:text-white transition-all"
-                                        placeholder="+91..."
                                     />
                                 </div>
                             </div>
@@ -209,7 +205,6 @@ const ContactPage = () => {
                                     required
                                     rows="4"
                                     className="w-full px-5 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-primary/50 text-slate-900 dark:text-white transition-all resize-none"
-                                    placeholder="How can we help you?"
                                 ></textarea>
                             </div>
 

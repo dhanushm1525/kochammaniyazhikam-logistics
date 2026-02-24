@@ -1,4 +1,3 @@
-'use server'
 
 import Hero from '../components/Hero';
 import ServicesCarousel from '../components/ServicesCarousel';

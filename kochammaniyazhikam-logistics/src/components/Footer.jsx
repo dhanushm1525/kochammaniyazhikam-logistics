@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Linkedin, Twitter, ArrowUp, Mail, Phone, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import kmaxLogo from '../assets/kmax-logo.jpg';
 
 const Footer = () => {
@@ -52,9 +53,14 @@ const Footer = () => {
                     <div>
                         <h3 className="text-white font-bold mb-4 text-sm">Company</h3>
                         <ul className="space-y-2.5 text-xs md:text-sm">
-                            {["About Us", "Our Services", "FAQ", "Project Gallery", "Contact Us"].map((link) => (
-                                <li key={link}>
-                                    <a href={link === "FAQ" ? "/faq" : "#"} className="hover:text-primary transition-colors duration-200 block">{link}</a>
+                            {[
+                                { label: "About Us", path: "/about" },
+                                { label: "Our Services", path: "/services" },
+                                { label: "FAQ", path: "/faq" },
+                                { label: "Contact Us", path: "/contact" }
+                            ].map((link) => (
+                                <li key={link.label}>
+                                    <Link to={link.path} className="hover:text-primary transition-colors duration-200 block">{link.label}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -64,9 +70,14 @@ const Footer = () => {
                     <div>
                         <h3 className="text-white font-bold mb-4 text-sm">Services</h3>
                         <ul className="space-y-2.5 text-xs md:text-sm">
-                            {["Heavy Haulage", "Crane Rental", "ODC Consignment", "Warehouse Storage"].map((link) => (
-                                <li key={link}>
-                                    <a href="#" className="hover:text-primary transition-colors duration-200 block">{link}</a>
+                            {[
+                                { label: "Heavy Machinery Transport", path: "/services/heavy-machinery-transportation" },
+                                { label: "Crane Services", path: "/services/crane-services" },
+                                { label: "ODC Transport", path: "/services/odc-transportation" },
+                                { label: "Trailer Transport", path: "/services/trailer-transportation" }
+                            ].map((link) => (
+                                <li key={link.label}>
+                                    <Link to={link.path} className="hover:text-primary transition-colors duration-200 block">{link.label}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -98,10 +109,6 @@ const Footer = () => {
                         © {new Date().getFullYear()} KMAX Logistics. All rights reserved.
                     </p>
                     <div className="flex items-center gap-6">
-                        <div className="flex gap-4 text-xs text-slate-500">
-                            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
-                        </div>
                         <button
                             onClick={scrollToTop}
                             className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary text-white transition-all group border border-white/5"

@@ -54,16 +54,18 @@ const Services = () => {
                         <h3 className="text-2xl sm:text-3xl font-display font-extrabold mb-4 text-slate-900 dark:text-white">We deliver logistics solutions that move your business forward.</h3>
                         <p className="text-slate-500 dark:text-slate-400">Streamlining your heavy equipment supply chain with KMAX Logistics so you can focus on building the world's infrastructure without headaches.</p>
                     </div>
-                    <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="bg-primary hover:bg-rose-700 text-white px-8 py-4 rounded-full font-bold flex items-center gap-4 transition-all whitespace-nowrap shadow-lg"
-                    >
-                        Get a Quote
-                        <span className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
-                            <span className="material-symbols-outlined text-sm">arrow_outward</span>
-                        </span>
-                    </motion.button>
+                    <Link to="/contact">
+                        <motion.div
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="bg-primary hover:bg-rose-700 text-white px-8 py-4 rounded-full font-bold flex items-center gap-4 transition-all whitespace-nowrap shadow-lg cursor-pointer"
+                        >
+                            Get a Quote
+                            <span className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
+                                <span className="material-symbols-outlined text-sm">arrow_outward</span>
+                            </span>
+                        </motion.div>
+                    </Link>
                 </motion.div>
             </div >
         </section >
