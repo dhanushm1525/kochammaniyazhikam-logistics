@@ -32,7 +32,6 @@ const ServicesCarousel = () => {
 
     // Filter for high-resolution images
     const highResImages = [
-        "/images/vendor coordination.png",
         "/images/semi low bed trailer.jpeg",
         "/images/crane transport.jpeg",
         "/images/semi-low-bed-trailer-body-1000x1000.webp",

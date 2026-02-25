@@ -293,5 +293,65 @@
         "image": "/images/lorry.jpg"
       }
     ]
+  },
+  {
+    "id": "aggregates-supply-services",
+    "title": "Aggregates Supply Services",
+    "shortDescription": "Reliable supply of construction aggregates for all project types.",
+    "description": "We supply high-quality construction aggregates for all types of projects including residential, commercial, and road works. With assured quality materials, on-time delivery, bulk supply capability, competitive pricing, GPS enabled transport, and direct quarry sourcing — KMAX is your trusted aggregates partner.",
+    "icon": "FaTruckLoading",
+    "image": "/images/aggregate.jpg",
+    "subServices": [
+      {
+        "title": "M-Sand (Manufactured Sand)",
+        "shortDescription": "High-quality manufactured sand ideal for concrete and construction, ensuring consistent grading and strength.",
+        "image": "/images/M-sand.jpg"
+      },
+      {
+        "title": "P-Sand (Plastering Sand)",
+        "shortDescription": "Fine-grained plastering sand for smooth wall finishes and superior plaster adhesion.",
+        "image": "/images/P-sand.jpg"
+      },
+      {
+        "title": "River Sand",
+        "shortDescription": "Natural river sand sourced for general construction and masonry applications.",
+        "image": "/images/river sand.jpg"
+      },
+      {
+        "title": "6mm Jelly (Crushed Stone)",
+        "shortDescription": "Fine crushed stone aggregate perfect for plastering, waterproofing, and fine concrete work.",
+        "image": "/images/6mm jelly.jpg"
+      },
+      {
+        "title": "12mm Jelly (Crushed Stone)",
+        "shortDescription": "Medium-grade crushed stone for reinforced concrete and precast elements.",
+        "image": "/images/12mm jelly.jpg"
+      },
+      {
+        "title": "20mm Jelly (Crushed Stone)",
+        "shortDescription": "Standard coarse aggregate widely used in structural concrete and RCC work.",
+        "image": "/images/20 mm jelly.jpg"
+      },
+      {
+        "title": "40mm Jelly (Crushed Stone)",
+        "shortDescription": "Large coarse aggregate for mass concrete, foundations, and road base layers.",
+        "image": "/images/40 mm jelly.jpg"
+      },
+      {
+        "title": "WMM Materials",
+        "shortDescription": "Wet Mix Macadam materials for road sub-base and base course construction.",
+        "image": "/images/wmm material.jpg"
+      },
+      {
+        "title": "Quarry Dust",
+        "shortDescription": "Cost-effective quarry dust for backfilling, leveling, and as a sand substitute.",
+        "image": "/images/quary dust.jpg"
+      },
+      {
+        "title": "Boulders & Rubble",
+        "shortDescription": "Heavy boulders and rubble stone for retaining walls, foundations, and landscaping.",
+        "image": "/images/Boulders and rubble.jpg"
+      }
+    ]
   }
 ]
