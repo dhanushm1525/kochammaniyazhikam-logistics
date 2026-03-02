@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 import servicesData from '../data/servicesData.json';
 
 const ServicesCarousel = () => {
-    // Initialize Embla with Autoplay plugin
+    // Center alignment + loop ensures the highlighted item is always in the middle
     const [emblaRef, emblaApi] = useEmblaCarousel(
-        { loop: true, align: 'center', skipSnaps: false },
-        [Autoplay({ delay: 5000, stopOnInteraction: false })]
+        { loop: true, align: 'center', skipSnaps: false, containScroll: false },
+        [Autoplay({ delay: 3000, stopOnInteraction: false })]
     );
 
     const [selectedIndex, setSelectedIndex] = useState(0);
@@ -30,47 +30,12 @@ const ServicesCarousel = () => {
 
     const scrollTo = useCallback((index) => emblaApi && emblaApi.scrollTo(index), [emblaApi]);
 
-    // Filter for high-resolution images
-    const highResImages = [
-        "/images/semi low bed trailer.jpeg",
-        "/images/crane transport.jpeg",
-        "/images/semi-low-bed-trailer-body-1000x1000.webp",
-        "/images/high-bed-trailer-1000x1000.webp",
-        "/images/excavator transport.png",
-        "/images/door to door heavy transport.jpg"
-    ];
-
-    // Get all services and sub-services, then filter
-    // Note: The original data structure has top-level services with sub-services.
-    // We want to show the top-level service IF its image is high-res, 
-    // OR show a sub-service if its image is high-res. 
-    // However, the current map iterates over `servicesData` (top-level). 
-    // Let's filter the top-level `servicesData` based on if their main image is in the list,
-    // OR if we want to extract sub-services that match.
-    // Given the previous code mapped `servicesData`, I will filter `servicesData` to finding items (either top-level or flattened sub-services) that match.
-    // To be safe and show enough items, I'll flatten the list to include all matching sub-services as individual carousel items.
-
-    const carouselItems = servicesData.flatMap(service => {
-        const items = [];
-        // Check main service image
-        if (highResImages.includes(service.image)) {
-            items.push(service);
-        }
-        // Check sub-services
-        if (service.subServices) {
-            service.subServices.forEach(sub => {
-                if (highResImages.includes(sub.image)) {
-                    // Start: Create a synthetic object for the carousel link
-                    // We need a parent ID for the link. Using the parent service ID.
-                    items.push({ ...sub, id: service.id, isSubService: true });
-                }
-            });
-        }
-        return items;
-    }).slice(0, 5);
+    // Use all top-level services for a balanced carousel with equal items on each side
+    const carouselItems = servicesData;
 
     return (
         <section className="py-20 bg-slate-50 dark:bg-slate-950 overflow-hidden">
+            {/* Heading stays constrained */}
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-12">
                     <motion.h2
@@ -91,21 +56,36 @@ const ServicesCarousel = () => {
                         Comprehensive transport solutions tailored for industrial needs.
                     </motion.p>
                 </div>
+            </div>
 
-                <div className="embla overflow-visible relative" ref={emblaRef}>
-                    <div className="flex touch-pan-y -ml-6">
-                        {carouselItems.map((service, index) => (
-                            <div className="flex-[0_0_85%] md:flex-[0_0_50%] lg:flex-[0_0_22%] min-w-0 pl-6 relative py-4" key={service.id}>
+            {/* Carousel spans full viewport width — overflow-hidden clips both sides equally */}
+            <div className="embla overflow-hidden relative" ref={emblaRef}>
+                <div className="flex touch-pan-y items-center gap-4 px-2" style={{ minHeight: '460px' }}>
+                    {carouselItems.map((service, index) => {
+                        const isActive = selectedIndex === index;
+                        return (
+                            <div
+                                className="flex-[0_0_75%] sm:flex-[0_0_50%] md:flex-[0_0_33.333%] lg:flex-[0_0_20%] min-w-0 relative"
+                                key={service.id}
+                            >
                                 <motion.div
                                     animate={{
-                                        scale: selectedIndex === index ? 1 : 0.9,
-                                        opacity: selectedIndex === index ? 1 : 0.5,
-                                        y: selectedIndex === index ? 0 : 20,
+                                        scale: isActive ? 1.12 : 0.92,
+                                        y: isActive ? -12 : 0,
+                                        zIndex: isActive ? 20 : 1,
                                     }}
-                                    transition={{ duration: 0.5, ease: "easeOut" }}
-                                    className={`relative rounded-[2rem] overflow-hidden shadow-2xl h-[350px] group cursor-pointer ${selectedIndex === index ? 'shadow-rose-900/20' : ''}`}
+                                    transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                                    className={`relative rounded-[2rem] overflow-hidden group cursor-pointer transition-shadow duration-500 ${isActive
+                                        ? 'shadow-[0_0_40px_rgba(225,29,72,0.45)] ring-[3px] ring-rose-500/70'
+                                        : 'shadow-lg'
+                                        }`}
+                                    style={{
+                                        height: isActive ? '400px' : '320px',
+                                        transition: 'height 0.5s cubic-bezier(0.4, 0, 0.2, 1)',
+                                    }}
                                 >
-                                    <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/10 transition-colors duration-500 z-10"></div>
+                                    <div className={`absolute inset-0 transition-colors duration-500 z-10 ${isActive ? 'bg-slate-900/10' : 'bg-slate-900/30 group-hover:bg-slate-900/15'
+                                        }`}></div>
                                     <img
                                         src={service.image}
                                         alt={service.title}
@@ -113,12 +93,26 @@ const ServicesCarousel = () => {
                                     />
 
                                     {/* Glassmorphism Content Card */}
-                                    <div className="absolute bottom-4 left-4 right-4 p-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl z-20 text-white overflow-hidden">
+                                    <div className={`absolute bottom-4 left-4 right-4 p-5 backdrop-blur-md border rounded-3xl z-20 text-white overflow-hidden transition-all duration-500 ${isActive
+                                        ? 'bg-white/15 border-rose-400/50 p-6'
+                                        : 'bg-white/10 border-white/20'
+                                        }`}>
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-80 z-[-1]"></div>
-                                        <h3 className="text-2xl font-bold mb-2 leading-tight">{service.title}</h3>
-                                        <p className="text-sm text-slate-200 line-clamp-2 mb-4 opacity-0 h-0 group-hover:opacity-100 group-hover:h-auto transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
+                                        <h3 className={`font-bold mb-2 leading-tight transition-all duration-500 ${isActive ? 'text-xl' : 'text-sm'
+                                            }`}>{service.title}</h3>
+
+                                        {/* Description visible on active slide */}
+                                        <motion.p
+                                            animate={{
+                                                opacity: isActive ? 1 : 0,
+                                                height: isActive ? 'auto' : 0,
+                                            }}
+                                            transition={{ duration: 0.4 }}
+                                            className="text-sm text-slate-200 line-clamp-2 mb-3 overflow-hidden"
+                                        >
                                             {service.shortDescription}
-                                        </p>
+                                        </motion.p>
+
                                         <Link
                                             to={`/services/${service.id}`}
                                             className="inline-flex items-center gap-2 text-sm font-semibold text-white/90 hover:text-white group/link"
@@ -133,20 +127,21 @@ const ServicesCarousel = () => {
                                     </div>
                                 </motion.div>
                             </div>
-                        ))}
-                    </div>
+                        );
+                    })}
                 </div>
+            </div>
 
-                <div className="flex justify-center gap-3 mt-10">
-                    {scrollSnaps.map((_, index) => (
-                        <button
-                            key={index}
-                            className={`h-2 rounded-full transition-all duration-500 ${index === selectedIndex ? 'w-10 bg-rose-600' : 'w-2 bg-slate-300 dark:bg-slate-700 hover:bg-rose-400'}`}
-                            onClick={() => scrollTo(index)}
-                            aria-label={`Go to slide ${index + 1}`}
-                        />
-                    ))}
-                </div>
+            {/* Pagination dots */}
+            <div className="flex justify-center gap-3 mt-10">
+                {scrollSnaps.map((_, index) => (
+                    <button
+                        key={index}
+                        className={`h-2 rounded-full transition-all duration-500 ${index === selectedIndex ? 'w-10 bg-rose-600' : 'w-2 bg-slate-300 dark:bg-slate-700 hover:bg-rose-400'}`}
+                        onClick={() => scrollTo(index)}
+                        aria-label={`Go to slide ${index + 1}`}
+                    />
+                ))}
             </div>
         </section>
     );

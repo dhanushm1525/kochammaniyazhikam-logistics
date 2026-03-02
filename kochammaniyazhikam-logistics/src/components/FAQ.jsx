@@ -47,11 +47,11 @@ const FAQ = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row justify-between gap-8 mb-16">
                     <div className="max-w-md">
-                        <span className="text-xs font-extrabold text-primary tracking-[0.3em] uppercase mb-4 block">// FAQ //</span>
+                        <span className="text-xs font-extrabold text-primary tracking-[0.3em] uppercase mb-4 block"></span>
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold leading-tight text-slate-900 dark:text-white">FREQUENTLY ASKED QUESTIONS</h2>
                     </div>
                     <p className="text-slate-500 dark:text-slate-400 max-w-sm mt-auto">
-                        Handpicked expertise, seamless booking, and local insights—everything you need to move your heavy equipment with KMAX Logistics.
+                        Handpicked expertise, seamless booking, and local insights everything you need to move your heavy equipment with KMAX Logistics.
                     </p>
                 </div>
 

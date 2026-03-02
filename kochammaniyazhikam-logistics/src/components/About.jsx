@@ -12,7 +12,7 @@ const About = () => {
                     className="relative"
                 >
                     <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary/5 rounded-full blur-3xl"></div>
-                    <span className="text-xs font-extrabold text-primary tracking-[0.3em] uppercase mb-4 block">// ABOUT US //</span>
+                    <span className="text-xs font-extrabold text-primary tracking-[0.3em] uppercase mb-4 block"></span>
                     <h2 className="text-3xl md:text-4xl font-display font-extrabold leading-tight mb-6 text-slate-900 dark:text-white">
                         Trusted Heavy Equipment <span className="text-primary">Transport Solutions</span>
                     </h2>
@@ -24,7 +24,7 @@ const About = () => {
                             With a strong focus on reliability and customer satisfaction, we offer end-to-end logistics support tailored to each client’s needs. From planning and loading to transport and delivery, our commitment is to provide dependable service that keeps your operations running smoothly and without delay.
                         </p>
                     </div>
-                    <div className="grid grid-cols-3 gap-4 sm:gap-8">
+                    {/* <div className="grid grid-cols-3 gap-4 sm:gap-8">
                         {[
                             { value: "20+", unit: "YR", label: "Heavy Haul Expertise" },
                             { value: "500+", unit: "TR", label: "Specialized Trailers" },
@@ -37,7 +37,7 @@ const About = () => {
                                 <p className="text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-wide">{stat.label}</p>
                             </div>
                         ))}
-                    </div>
+                    </div> */}
                 </motion.div>
 
                 <motion.div
@@ -57,7 +57,7 @@ const About = () => {
                             <h4 className="font-bold text-xl mb-1 text-slate-900 dark:text-white">Our Experts</h4>
                             <p className="text-sm text-slate-500">Dedicated Logistics Team</p>
                         </div>
-                        <a href="tel:+919547629047">
+                        <a href="tel:+917561088047">
                             <motion.div
                                 whileHover={{ scale: 1.1 }}
                                 className="bg-primary w-12 h-12 rounded-full text-white flex items-center justify-center shadow-lg shadow-rose-500/20 cursor-pointer"
