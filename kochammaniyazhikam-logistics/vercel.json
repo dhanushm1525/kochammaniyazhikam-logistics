@@ -1,7 +1,7 @@
 {
     "rewrites": [
         {
-            "source": "/(.*)",
+            "source": "/((?!favicon\\.png|favicon\\.ico|site\\.webmanifest|robots\\.txt|sitemap\\.xml|kmax-logo\\.jpg|images/.*).*)",
             "destination": "/index.html"
         }
     ]
