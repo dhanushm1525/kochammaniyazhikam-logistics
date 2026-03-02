@@ -39,7 +39,7 @@ const Hero = () => {
                             transition={{ delay: 0.7, duration: 0.5 }}
                             className="text-base sm:text-lg text-slate-300 mb-6 sm:mb-10 max-w-xl"
                         >
-                            Simplify complex logistics, reduce overhead costs, and deliver oversized equipment faster with KMAX Logistics' specialized heavy machinery transport platform.
+                            KMAX Logistics provides expert ODC transport, heavy haulage, specialized transport services, machinery hiring, and end-to-end logistics solutions across India.
                         </motion.p>
 
 
