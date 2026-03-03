@@ -123,7 +123,7 @@
     "image": "/images/semi-low-bed-trailer-body-1000x1000.webp",
     "subServices": [
       {
-        "title": "Low bed (50, 60, 70, 100 ton) transport",
+        "title": "Low bed",
         "shortDescription": "Transporting heavy loads with 50, 60, 70, and 100 ton supporting trailers.",
         "image": "/images/semi-low-bed-trailer-body-1000x1000.webp"
       },
@@ -152,26 +152,6 @@
     "icon": "FaIndustry",
     "image": "/images/ODC handling.jpg",
     "subServices": [
-      {
-        "title": "Low bed trailer transport",
-        "shortDescription": "Versatile trailers for various heavy equipment transport.",
-        "image": "/images/semi-low-bed-trailer-body-1000x1000.webp"
-      },
-      {
-        "title": "Semi low bed trailer",
-        "shortDescription": "Optimized for transporting tall and heavy machinery.",
-        "image": "/images/semi low bed trailer.jpeg"
-      },
-      {
-        "title": "Highbed trailer",
-        "shortDescription": "Reliable transport for standard ODC cargo.",
-        "image": "/images/high-bed-trailer-1000x1000.webp"
-      },
-      {
-        "title": "Hydraulic axle trailer",
-        "shortDescription": "For super-heavy loads requiring weight distribution.",
-        "image": "/images/hydrolic axle trailer.jpg"
-      },
       {
         "title": "Excavator transport",
         "shortDescription": "Specialized carriers for moving excavators to sites.",
@@ -318,22 +298,22 @@
         "image": "/images/river sand.jpg"
       },
       {
-        "title": "6mm Jelly (Crushed Stone)",
+        "title": "6mm (Crushed Stone)",
         "shortDescription": "Fine crushed stone aggregate perfect for plastering, waterproofing, and fine concrete work.",
         "image": "/images/6mm jelly.jpg"
       },
       {
-        "title": "12mm Jelly (Crushed Stone)",
+        "title": "12mm (Crushed Stone)",
         "shortDescription": "Medium-grade crushed stone for reinforced concrete and precast elements.",
         "image": "/images/12mm jelly.jpg"
       },
       {
-        "title": "20mm Jelly (Crushed Stone)",
+        "title": "20mm (Crushed Stone)",
         "shortDescription": "Standard coarse aggregate widely used in structural concrete and RCC work.",
         "image": "/images/20 mm jelly.jpg"
       },
       {
-        "title": "40mm Jelly (Crushed Stone)",
+        "title": "40mm (Crushed Stone)",
         "shortDescription": "Large coarse aggregate for mass concrete, foundations, and road base layers.",
         "image": "/images/40 mm jelly.jpg"
       },

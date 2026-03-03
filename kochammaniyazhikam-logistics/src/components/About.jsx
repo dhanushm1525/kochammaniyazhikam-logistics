@@ -18,7 +18,7 @@ const About = () => {
                     </h2>
                     <div className="space-y-4 text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
                         <p>
-                            Kochammaniyazhikam Logistics is a trusted provider of heavy equipment transport and industrial logistics solutions. We specialize in safe, efficient, and on-time movement of construction, mining, and industrial machinery across India. Our modern fleet, skilled operators, and experienced logistics team ensure every project is handled with precision and care.
+                            KMAX Logistics is a trusted provider of heavy equipment transport and industrial logistics solutions. We specialize in safe, efficient, and on-time movement of construction, mining, and industrial machinery across India. Our modern fleet, skilled operators, and experienced logistics team ensure every project is handled with precision and care.
                         </p>
                         <p>
                             With a strong focus on reliability and customer satisfaction, we offer end-to-end logistics support tailored to each client’s needs. From planning and loading to transport and delivery, our commitment is to provide dependable service that keeps your operations running smoothly and without delay.

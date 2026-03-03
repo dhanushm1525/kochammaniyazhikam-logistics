@@ -54,7 +54,7 @@ const ContactPage = () => {
         }
     };
 
-    const whatsappLink = "https://wa.me/919547629047";
+    const whatsappLink = "https://wa.me/918547628047";
 
     return (
         <div className="pt-20 bg-white dark:bg-slate-900 min-h-screen transition-colors duration-300">
@@ -108,7 +108,7 @@ const ContactPage = () => {
                                 <Phone className="text-primary mb-4 w-8 h-8" />
                                 <h4 className="font-bold text-slate-900 dark:text-white mb-2">Call Us</h4>
                                 <p className="text-slate-500 dark:text-slate-400 text-sm">Mon-Sat from 9am to 6pm</p>
-                                <p className="text-slate-800 dark:text-slate-200 font-bold mt-2">7561088047</p>
+                                <p className="text-slate-800 dark:text-slate-200 font-bold mt-2">7561088047, 7676659302</p>
                             </div>
                             <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm">
                                 <Mail className="text-primary mb-4 w-8 h-8" />
@@ -137,15 +137,25 @@ const ContactPage = () => {
                             <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_outward</span>
                         </a>
 
-                        {/* Call Now Button */}
-                        <a
-                            href="tel:+917561088047"
-                            className="w-full bg-primary hover:bg-rose-700 text-white p-5 rounded-2xl font-bold flex items-center justify-center gap-3 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 group mt-4"
-                        >
-                            <Phone className="w-6 h-6" />
-                            <span className="text-lg">Call Now</span>
-                            <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_outward</span>
-                        </a>
+                        {/* Call Now Buttons */}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                            <a
+                                href="tel:+917561088047"
+                                className="bg-primary hover:bg-rose-700 text-white p-5 rounded-2xl font-bold flex items-center justify-center gap-3 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 group"
+                            >
+                                <Phone className="w-5 h-5" />
+                                <span className="text-lg">Call Line 1</span>
+                                <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_outward</span>
+                            </a>
+                            <a
+                                href="tel:+917676659302"
+                                className="bg-slate-800 hover:bg-slate-700 text-white p-5 rounded-2xl font-bold flex items-center justify-center gap-3 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 group"
+                            >
+                                <Phone className="w-5 h-5" />
+                                <span className="text-lg">Call Line 2</span>
+                                <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_outward</span>
+                            </a>
+                        </div>
                     </motion.div>
 
                     {/* Contact Form */}
