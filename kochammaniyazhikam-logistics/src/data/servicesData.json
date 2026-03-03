@@ -213,29 +213,14 @@
     "image": "/images/excavator transport.png",
     "subServices": [
       {
-        "title": "JCB",
-        "shortDescription": "Reliable backhoe loaders for general construction needs.",
+        "title": "Front and Back Loader",
+        "shortDescription": "Versatile JCB machines for excavation and loading tasks.",
         "image": "/images/JCB.jpg"
       },
       {
-        "title": "Tata Hitachi",
-        "shortDescription": "Heavy-duty construction equipment from a trusted brand.",
+        "title": "33 to 380 Category",
+        "shortDescription": "Heavy-duty Hitachi excavators for wide-ranging earthmoving projects.",
         "image": "/images/Tata Hitachi.jpg"
-      },
-      {
-        "title": "Kobelco",
-        "shortDescription": "Efficient excavators known for fuel economy and power.",
-        "image": "/images/Kobelco.jpg"
-      },
-      {
-        "title": "Sany",
-        "shortDescription": "Modern construction machinery for diverse applications.",
-        "image": "/images/sany.jpg"
-      },
-      {
-        "title": "Volvo",
-        "shortDescription": "Premium heavy equipment ensuring high productivity.",
-        "image": "/images/volvo.jpg"
       }
     ]
   },
