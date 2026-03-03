@@ -13,7 +13,7 @@ const Home = () => {
         <>
             <SEO
                 title="Home"
-                description="Kochammaniyazhikam Logistics - Trusted provider of heavy equipment transport and industrial logistics solutions across India. Safe, efficient, and on-time delivery."
+                description="KMAX Logistics - Trusted provider of heavy equipment transport and industrial logistics solutions across India. Safe, efficient, and on-time delivery."
                 keywords="heavy machinery transport, industrial logistics, ODC transportation, crane services, trailer transport, India logistics"
             />
 

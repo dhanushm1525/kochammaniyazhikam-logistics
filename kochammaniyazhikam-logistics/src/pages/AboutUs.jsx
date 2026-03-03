@@ -8,7 +8,7 @@ const AboutUs = () => {
         <div className="pt-20 bg-white dark:bg-slate-900 min-h-screen transition-colors duration-300">
             <SEO
                 title="About Us"
-                description="Learn about Kochammaniyazhikam Logistics, a trusted provider of heavy equipment transport and industrial logistics solutions using modern fleets and skilled operators."
+                description="Learn about KMAX Logistics, a trusted provider of heavy equipment transport and industrial logistics solutions using modern fleets and skilled operators."
                 keywords="about us, logistics company, heavy haulage experts, transport company profile"
                 url="/about"
             />
@@ -47,7 +47,7 @@ const AboutUs = () => {
                         </h2>
                         <div className="space-y-6 text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
                             <p>
-                                Kochammaniyazhikam Logistics is a trusted provider of heavy equipment transport and
+                                KMAX Logistics is a trusted provider of heavy equipment transport and
                                 industrial logistics solutions. We specialize in safe, efficient, and on-time movement of
                                 construction, mining, and industrial machinery across India. Our modern fleet, skilled
                                 operators, and experienced logistics team ensure every project is handled with precision

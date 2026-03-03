@@ -31,7 +31,7 @@ const ContactPage = () => {
                 },
                 body: JSON.stringify({
                     access_key: '9d0f22c7-ee33-4d19-a45b-74b2499c9dc5',
-                    subject: 'New Contact Form Submission - Kochammaniyazhikam Logistics',
+                    subject: 'New Contact Form Submission - KMAX Logistics',
                     from_name: formData.name,
                     name: formData.name,
                     email: formData.email,
@@ -60,7 +60,7 @@ const ContactPage = () => {
         <div className="pt-20 bg-white dark:bg-slate-900 min-h-screen transition-colors duration-300">
             <SEO
                 title="Contact Us"
-                description="Get in touch with Kochammaniyazhikam Logistics for quotes, inquiries, and heavy transport solutions. Contact via email or WhatsApp."
+                description="Get in touch with KMAX Logistics for quotes, inquiries, and heavy transport solutions. Contact via email or WhatsApp."
                 keywords="contact logistics, heavy haulage quote, transport inquiry, whatsapp logistics, customer support"
                 url="/contact"
             />
