@@ -318,5 +318,20 @@
         "image": "/images/Boulders & Rubble.jpg"
       }
     ]
+  },
+  {
+    "id": "heavy-crane",
+    "title": "Heavy crane",
+    "shortDescription": "Lifting upto 500 TON all terrain crane available",
+    "description": "Comprehensive heavy lifting solutions with our 500 TON all-terrain crane, suitable for complex industrial and construction projects.",
+    "icon": "FaTractor",
+    "image": "/images/500 TON Crane.jpeg",
+    "subServices": [
+      {
+        "title": "500 Ton All Terrain Crane",
+        "shortDescription": "Powerful lifting capacity for massive industrial components.",
+        "image": "/images/500 TON Crane.jpeg"
+      }
+    ]
   }
 ]
