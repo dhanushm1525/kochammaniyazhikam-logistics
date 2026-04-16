@@ -114,7 +114,7 @@ const ContactPage = () => {
                                 <Mail className="text-primary mb-4 w-8 h-8" />
                                 <h4 className="font-bold text-slate-900 dark:text-white mb-2">Email Us</h4>
                                 <p className="text-slate-500 dark:text-slate-400 text-sm">For inquiries & support</p>
-                                <p className="text-slate-800 dark:text-slate-200 font-bold mt-2 break-all">hello@kmaxlogistics.com</p>
+                                <p className="text-slate-800 dark:text-slate-200 font-bold mt-2 break-all">Kmaxlogisticskerala@gmail.com</p>
                             </div>
                             <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm md:col-span-2">
                                 <MapPin className="text-primary mb-4 w-8 h-8" />

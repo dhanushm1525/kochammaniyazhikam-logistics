@@ -41,11 +41,19 @@ const Footer = () => {
                             Leading the way in heavy haul transportation and project logistics across India. safe, reliable, and on time.
                         </p>
                         <div className="flex gap-3">
-                            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                                <a key={i} href="#" className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-all hover:-translate-y-1 text-slate-400">
-                                    <Icon size={14} />
-                                </a>
-                            ))}
+                            {[
+                                { icon: Facebook, href: "https://www.facebook.com/share/18GgQG2432/" },
+                                { icon: Twitter, href: "#" },
+                                { icon: Instagram, href: "https://www.instagram.com/kmaxlogistics?igsh=Y2UxazdsMWYyNmxv" },
+                                { icon: Linkedin, href: "#" }
+                            ].map((social, i) => {
+                                const Icon = social.icon;
+                                return (
+                                    <a key={i} href={social.href} target={social.href !== "#" ? "_blank" : undefined} rel={social.href !== "#" ? "noopener noreferrer" : undefined} className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-all hover:-translate-y-1 text-slate-400">
+                                        <Icon size={14} />
+                                    </a>
+                                );
+                            })}
                         </div>
                     </div>
 
@@ -97,7 +105,7 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center gap-2.5">
                                 <Mail size={16} className="text-primary shrink-0" />
-                                <span>hello@kmaxlogistics.com</span>
+                                <span>Kmaxlogisticskerala@gmail.com</span>
                             </li>
                         </ul>
                     </div>
